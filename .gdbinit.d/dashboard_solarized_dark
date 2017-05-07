@@ -1,0 +1,15 @@
+dashboard -style prompt_not_running '\[\e[1;35m\]>>>\[\e[0m\]'
+dashboard -style style_error '1;31'
+dashboard -style style_low '0;32'
+dashboard -style style_high '1;37'
+dashboard -style style_selected_1 '0;34'
+dashboard -style style_selected_2 '0;33'
+dashboard -style divider_label_style_off_primary '0;33'
+dashboard -style divider_label_style_on_primary '0;35'
+dashboard -style divider_label_style_off_secondary '0;31'
+dashboard -style divider_label_style_on_secondary '0;37'
+
+dashboard -style divider_fill_style_primary '1;33'
+dashboard -style divider_fill_style_secondary '1;33'
+
+dashboard -layout registers source assembly threads stack expressions history memory
